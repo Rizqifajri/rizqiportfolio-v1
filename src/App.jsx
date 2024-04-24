@@ -6,6 +6,7 @@ import Profile from "./components/Profile";
 import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Profile />
       <AboutMe />
       <TechStack />
+      <Project/>
       <Footer/>
     </>
   );

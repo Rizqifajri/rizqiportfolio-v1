@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { fromLeft, fromRight } from "../libs/variants";
 import { motion, useInView } from "framer-motion";
+import Title from "./Title";
 
 const AboutMe = () => {
   const ref = useRef(null);
@@ -10,9 +11,7 @@ const AboutMe = () => {
 
   return (
     <div className="">
-      <h2 className="text-center text-4xl  mt-5  font-bold">About Me</h2>
-      <div className="bg-gray-600 h-1 mb-5 w-24 mx-auto rounded-full "></div>
-      <h3 className="text-center text-gray-400 ">Who am i ?</h3>
+      <Title title="About ME" subtitle="who am i ?"/>
       <motion.article
         ref={ref}
         variants={fromLeft}

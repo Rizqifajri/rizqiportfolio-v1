@@ -7,6 +7,7 @@ import { fromLeft } from "../libs/variants";
 import { fromRight } from "../libs/variants";
 import { fadeIn } from "../libs/variants";
 import Motion from "./Motion";
+import Title from "./Title";
 
 const TechStack = () => {
   const icons = [
@@ -26,8 +27,7 @@ const TechStack = () => {
   return (
     <div>
       <article>
-        <p className="text-center text-2xl ">Tech Stack</p>
-        <div className="bg-blue-700 h-1 mb-5 w-24 mx-auto rounded-full "></div>
+        <Title title="Tech Stack" subtitle="Technology"/>
         <div className="grid grid-cols-3 justify-center m-5 gap-5 sm:flex sm:flex-row items-center mx-auto w-fit     ">
           {icons.map((item, index) => (
             <Motion variants={fadeIn} custom={index}>
