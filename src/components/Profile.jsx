@@ -29,17 +29,17 @@ const Profile = () => {
         <Motion variants={fromLeft} custom={3}>
           <ul className="flex gap-2 ">
             <li className="w-12 hover:scale-110 transition-all">
-              <a className="" href="">
+              <a className="" href="https://github.com/Rizqifajri">
                 <img className="" src={gitHub} alt="" />
               </a>
             </li>
             <li className="w-12 hover:scale-110 transition-all">
-              <a className="text-white" href="">
+              <a className="text-white" href="https://www.linkedin.com/in/muhammad-rizqi-fajri-0759a222b/">
                 <img src={Linkedn} alt="" />
               </a>
             </li>
             <li className="w-12 hover:scale-110 transition-all">
-              <a className="text-white" href="">
+              <a className="text-white" href="https://www.instagram.com/rizqifajriii/">
                 <img src={Instagram} alt="" />
               </a>
             </li>
