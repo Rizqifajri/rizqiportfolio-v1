@@ -2,6 +2,7 @@ import React from "react";
 import Mindes from "../assets/MindesWeb.png";
 import upz from "../assets/upz-ug.png"
 import tokokami from "../assets/toko-kami.png"
+import savvy from "../assets/savvy.png"
 
 const dataProjects = [
   {
@@ -19,6 +20,11 @@ const dataProjects = [
     title: "Toko Kami",
     desc: "Toko kami destinasi belanja online yang memadukan teknologi dan fashion untuk memenuhi kebutuhan pria dan wanita modern.",
   },
+  {
+    img: savvy,
+    title: "Savvy",
+    desc: "Savvy adalah sebuah platform finance yang menyediakan berbagai macam layanan keuangan.",
+  }
 ];
 
 const CardProjects = () => {
